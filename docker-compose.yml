@@ -1,0 +1,11 @@
+services:
+  autonomous-etl-agent:
+    image: python:3.12-slim
+    container_name: autonomous-etl-agent
+    working_dir: /app
+    volumes:
+      - .:/app
+    environment:
+      - PYTHONUNBUFFERED=1
+    command: sh -c "pip install --no-cache-dir -r requirements.txt && python3 demo_etl_workflow.py"
+    restart: "no"

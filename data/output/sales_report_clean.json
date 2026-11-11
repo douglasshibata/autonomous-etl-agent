@@ -1,0 +1,26 @@
+[
+  {
+    "ID_Pedido":1001.0,
+    "Cliente":"Empresa Alfa Ltda",
+    "Valor_Bruto":1250.5,
+    "Quantidade":12
+  },
+  {
+    "ID_Pedido":1002.0,
+    "Cliente":"Consumidor Final",
+    "Valor_Bruto":80.0,
+    "Quantidade":1
+  },
+  {
+    "ID_Pedido":1004.0,
+    "Cliente":"Empresa Gama",
+    "Valor_Bruto":450.25,
+    "Quantidade":0
+  },
+  {
+    "ID_Pedido":1005.0,
+    "Cliente":"Empresa Delta",
+    "Valor_Bruto":9999.99,
+    "Quantidade":5
+  }
+]
